@@ -19,6 +19,7 @@ export default function Header() {
           <div className="w-8 h-8 rounded bg-gold flex items-center justify-center font-bold text-background">
             KB
           </div>
+          <img src="/logo-kb.png" alt="Logo KB" className="h-10 w-auto mr-2" />
           <span className="font-semibold text-foreground hidden sm:block tracking-tight">
             Kaique Borges <span className="text-electric-light">| Negócios Locais</span>
           </span>

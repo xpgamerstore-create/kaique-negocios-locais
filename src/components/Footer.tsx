@@ -25,7 +25,8 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <p className="text-sm text-neutral-500 text-center md:text-left">
+                    <p className="text-sm text-neutral-500 text-center md:text-left flex items-center justify-center md:justify-start">
+            <img src="/logo-kb.png" alt="Logo KB" className="h-6 w-auto mr-2" />
             &copy; {new Date().getFullYear()} Kaique Borges. Todos os direitos reservados.
           </p>
           <div className="flex gap-4">

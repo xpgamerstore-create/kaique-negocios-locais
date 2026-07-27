@@ -35,7 +35,7 @@ export default function RootLayout({
     <html lang="pt-BR" className={inter.className}>
       {/* Watermark background */}
       <body className="relative min-h-screen flex flex-col bg-background text-foreground">
-        <div className="pointer-events-none fixed inset-0 opacity-[0.03] bg-[url('/logo-kb.png')] bg-center bg-no-repeat bg-contain" />
+        <div className="pointer-events-none fixed inset-0 opacity-5 bg-[url('/logo-kb.png')] bg-center bg-no-repeat bg-contain" />
         {children}
       </body>
     </html>
