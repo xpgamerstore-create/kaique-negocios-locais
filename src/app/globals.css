@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #0A0A0A;
+  --color-foreground: #ededed;
+  --color-electric-blue: #0052FF;
+  --color-electric-light: #00E5FF;
+  --color-gold: #FFD700;
+  --color-gold-hover: #E6C200;
+  --color-surface: #121212;
+  --color-surface-border: #2A2A2A;
+}
+
+:root {
+  --background: #0A0A0A;
+  --foreground: #ededed;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
